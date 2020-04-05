@@ -1,4 +1,3 @@
 export const LOADING_DATA = 'LOADING_DATA';
-
 export const SET_PRODUCTS = 'SET_PRODUCTS';
 export const GET_SEARCH_QUERY = 'GET_SEARCH_QUERY';

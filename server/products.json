@@ -46,5 +46,29 @@
     "image": "https://static1.squarespace.com/static/50f81721e4b0a63b10745c06/t/5c6d741ff9619a57b16873b1/1550677056142/TheLuckyBandBuenosDiaz.jpg?format=1500w",
     "category": "Pop",
     "price": 14.99
+  },
+  {
+    "id": 7,
+    "catalog number": 2,
+    "name": "Slippery When Wet",
+    "image": "https://pure-music.co.uk/wp-content/uploads/2019/03/Slippery-When-Wet-Album-Cover.png",
+    "category": "Alternative",
+    "price": 25.99
+  },
+  {
+    "id": 8,
+    "catalog number": 1,
+    "name": "Dream Catcher",
+    "image": "https://i.pinimg.com/564x/9f/4f/ab/9f4faba81fa72b52f45d846f6291147a.jpg",
+    "category": "Pop",
+    "price": 16.99
+  },
+  {
+    "id": 9,
+    "catalog number": 4,
+    "name": "Keith Graffiti u",
+    "image": "https://www.onecountry.com/wp-content/uploads/2018/04/Keith-Graffiti-u-Cover.jpg",
+    "category": "Country",
+    "price": 17.99
   }
 ]

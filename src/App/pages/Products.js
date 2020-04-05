@@ -4,6 +4,10 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { getProducts } from '../redux/actions/productActions';
 
+import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSpinner } from '@fortawesome/free-solid-svg-icons';
+
 import Searchbar from '../components/Searchbar';
 import Card from '../components/Card';
 
@@ -28,15 +32,14 @@ class Products extends Component {
         <Card product={product} key={product.id}></Card>
       ))
     ) : (
-      <h2>Loading...</h2>
+      <SpinnerIcon icon={faSpinner} />
     );
 
     return (
-      <div>
+      <ProductsPage>
         <Searchbar></Searchbar>
-        <h1>products</h1>
-        <div className='products-container'>{productsMarkup}</div>
-      </div>
+        <ProductsContainer>{productsMarkup}</ProductsContainer>
+      </ProductsPage>
     );
   }
 }
@@ -44,6 +47,7 @@ class Products extends Component {
 Products.propTypes = {
   setProducts: PropTypes.func.isRequired,
   products: PropTypes.array.isRequired,
+  query: PropTypes.string.isRequired,
 };
 
 const mapStateToProps = (state) => ({
@@ -55,3 +59,35 @@ const mapDispatchToProps = (dispatch) => ({
   setProducts: () => dispatch(getProducts()),
 });
 export default connect(mapStateToProps, mapDispatchToProps)(Products);
+
+const ProductsContainer = styled.div`
+  max-width: 90vw;
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(auto-fill, 300px);
+  align-items: center;
+  justify-content: center;
+`;
+const ProductsPage = styled.div`
+  max-width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+`;
+const SpinnerIcon = styled(FontAwesomeIcon)`
+  color: #18314f;
+  font-size: 32px;
+  margin: 40px auto;
+  animation: rotate 1.2s linear infinite;
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`;
