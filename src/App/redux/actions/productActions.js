@@ -1,4 +1,4 @@
-import { SET_PRODUCTS, LOADING_DATA } from '../types';
+import { SET_PRODUCTS, GET_SEARCH_QUERY, LOADING_DATA } from '../types';
 import axios from 'axios';
 
 export const getProducts = () => (dispatch) => {
@@ -11,4 +11,8 @@ export const getProducts = () => (dispatch) => {
     .catch((err) => {
       console.log('Data not set, something went wrong: ', err.message);
     });
+};
+
+export const getSearchQuery = (query) => (dispatch) => {
+  dispatch({ type: GET_SEARCH_QUERY, payload: query });
 };

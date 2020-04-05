@@ -1,50 +1,50 @@
 [
   {
     "id": 1,
-    "Catalog Number": 1,
-    "Name": "Homesick",
-    "Image": "https://media.altpress.com/uploads/2017/04/ADTR-Homesick.jpg",
-    "Category": "Rock Metal",
-    "Price": 10.99
+    "catalog number": 1,
+    "name": "Homesick",
+    "image": "https://media.altpress.com/uploads/2017/04/ADTR-Homesick.jpg",
+    "category": "Rock Metal",
+    "price": 10.99
   },
   {
     "id": 2,
-    "Catalog Number": 3,
-    "Name": "Adele 21",
-    "Image": "https://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
-    "Category": "Pop",
-    "Price": 18.99
+    "catalog number": 3,
+    "name": "Adele 21",
+    "image": "https://www.freshprintmagazine.com/wp-content/uploads/2013/09/Adele-21-Album-Cover-Art-500x500.png",
+    "category": "Pop",
+    "price": 18.99
   },
   {
     "id": 3,
-    "Catalog Number": 1,
-    "Name": "Perfectly Chilled",
-    "Image": "https://www.designformusic.com/wp-content/uploads/2016/01/perfectly-chilled-album-cover-artwork-design-500x500.jpg",
-    "Category": "Indie",
-    "Price": 10.99
+    "catalog number": 1,
+    "name": "Perfectly Chilled",
+    "image": "https://www.designformusic.com/wp-content/uploads/2016/01/perfectly-chilled-album-cover-artwork-design-500x500.jpg",
+    "category": "Indie",
+    "price": 10.99
   },
   {
     "id": 4,
-    "Catalog Number": 1,
-    "Name": "808s Heartbreak",
-    "Image": "https://www.hypebeast.com/image/2008/11/kanye-west-808s-heartbreak-kaws-2.jpg",
-    "Category": "Hiphop",
-    "Price": 5.99
+    "catalog number": 1,
+    "name": "808s Heartbreak",
+    "image": "https://www.hypebeast.com/image/2008/11/kanye-west-808s-heartbreak-kaws-2.jpg",
+    "category": "Hiphop",
+    "price": 5.99
   },
   {
     "id": 5,
-    "Catalog Number": 3,
-    "Name": "Viva la Vida",
-    "Image": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/da19128a-f118-427e-a9d1-53622b024376/vivalavida.jpg",
-    "Category": "Rock",
-    "Price": 20.99
+    "catalog number": 3,
+    "name": "Viva la Vida",
+    "image": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/da19128a-f118-427e-a9d1-53622b024376/vivalavida.jpg",
+    "category": "Rock",
+    "price": 20.99
   },
   {
     "id": 6,
-    "Catalog Number": 2,
-    "Name": "The Lucky Band",
-    "Image": "https://static1.squarespace.com/static/50f81721e4b0a63b10745c06/t/5c6d741ff9619a57b16873b1/1550677056142/TheLuckyBandBuenosDiaz.jpg?format=1500w",
-    "Category": "Pop",
-    "Price": 14.99
+    "catalog number": 2,
+    "name": "The Lucky Band",
+    "image": "https://static1.squarespace.com/static/50f81721e4b0a63b10745c06/t/5c6d741ff9619a57b16873b1/1550677056142/TheLuckyBandBuenosDiaz.jpg?format=1500w",
+    "category": "Pop",
+    "price": 14.99
   }
 ]

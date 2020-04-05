@@ -14,10 +14,17 @@ class Products extends Component {
   }
 
   render() {
-    const { products, loading } = this.props;
+    const { products, query, loading } = this.props;
+
+    let filteredProducts = query
+      ? products.filter((product) => {
+          let nameQuery = query.toLowerCase();
+          return product.name.toLowerCase().includes(nameQuery);
+        })
+      : products;
 
     let productsMarkup = !loading ? (
-      products.map((product) => (
+      filteredProducts.map((product) => (
         <Card product={product} key={product.id}></Card>
       ))
     ) : (
@@ -41,6 +48,7 @@ Products.propTypes = {
 
 const mapStateToProps = (state) => ({
   products: state.product.products,
+  query: state.product.query,
   loading: state.product.loading,
 });
 const mapDispatchToProps = (dispatch) => ({
