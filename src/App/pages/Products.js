@@ -58,6 +58,7 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
   setProducts: () => dispatch(getProducts()),
 });
+
 export default connect(mapStateToProps, mapDispatchToProps)(Products);
 
 const ProductsContainer = styled.div`

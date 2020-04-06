@@ -51,8 +51,8 @@
     "id": 7,
     "catalog number": 2,
     "name": "Slippery When Wet",
-    "image": "https://pure-music.co.uk/wp-content/uploads/2019/03/Slippery-When-Wet-Album-Cover.png",
-    "category": "Alternative",
+    "image": "https://img.discogs.com/-BIgv5_Tl0t8U5cJcYak0vVenFI=/fit-in/500x500/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-371857-1335805117.jpeg.jpg",
+    "category": "Metal",
     "price": 25.99
   },
   {
@@ -70,5 +70,29 @@
     "image": "https://www.onecountry.com/wp-content/uploads/2018/04/Keith-Graffiti-u-Cover.jpg",
     "category": "Country",
     "price": 17.99
+  },
+  {
+    "id": 10,
+    "catalog number": 1,
+    "name": "Joni Mitchell",
+    "image": "https://www.covermesongs.com/wp-content/uploads/2019/01/blue-500x500.jpg",
+    "category": "Jazz",
+    "price": 21.99
+  },
+  {
+    "id": 11,
+    "catalog number": 4,
+    "name": "We can do anything",
+    "image": "https://thetriffid.com.au/wp-content/uploads/2015/10/violent-femmes-we-can-do-anything-album-cover-art.jpg",
+    "category": "Pop",
+    "price": 13.99
+  },
+  {
+    "id": 12,
+    "catalog number": 4,
+    "name": "Weezer",
+    "image": "https://m.media-amazon.com/images/I/719u61DhWdL._SS500_.jpg",
+    "category": "Rock",
+    "price": 7.99
   }
 ]
