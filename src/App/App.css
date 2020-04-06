@@ -30,8 +30,3 @@ a {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.test {
-  align-items: flex-end;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-}
